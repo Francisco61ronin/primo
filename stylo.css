@@ -1,0 +1,60 @@
+#site{
+    /*Definimos a largura da página*/
+    width: 1000px;
+    /*Definimos a altura da página*/
+    height: 700px;
+    /*Aqui definimos a posição que a página ocupará na tela,*/
+    margin-top: 0;
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-right: auto;
+    /*Definimos a cor de fundo*/
+    background: #666;
+}
+#header {
+    /* Novamente definimos a largura da divisa*/
+    width: 1000px;
+    /*Altura da divisa*/
+    height: 100px;
+    /*cor de fundo*/
+    background: #00F;
+}
+#conteudo {
+    /*Novamente definimos a largura da divisa*/
+    width: 1000px;
+    /*Altura da divisa*/
+    height: 500px;
+    /*Cor de fundo da divisa*/
+    background: #0F0;
+}
+#conteudo-left{
+    /* Definimos a largura da divisa*/
+    width: 500px;
+    /* altura da div */
+    height: 300px;
+    /* O atributo Float é utilizado para fazermos o nosso bloco(div)
+    literalmente flutue e se posicione onde queremos na página,
+    quando escolhemos left, dizemos que esse bloco irá se posicionar
+    na parte esquerda da página */
+    float: left;
+    /* Cor de fundo da div */
+    background-color: #ff0;
+}
+#conteudo-right{
+    /* Definimos a largura da divisa*/
+    width: 500px;
+    /* a altura da div*/
+    height: 400px;
+    /* Pode parecer meio estranho usarmos o mesmo atributo left para o bloco em que queremos posicionar na direita, mas como sabemos, o CSS é um estilo em cascata, nossa div conteúdo definimos a largura de 1000px e na conteudo-left 500px, automaticamente ao definirmos o conteudo-right com 500px e à esquerda também, ele ficou à direita do conteudo-left, pois o máximo que a div filha poderá ter é 1000px, sendo 500+500=1000px*/
+    float: left;
+    /* Cor de fundo da div*/
+    background-color: #f00;
+}
+#footer {
+    /*Definimos a largura da divisa*/
+    width: 1000px;
+    /* A altura da div */
+    height: 100px;
+    /* Cor de fundo da div */
+    background-color: #c3c;
+}
